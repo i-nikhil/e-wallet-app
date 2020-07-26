@@ -15,7 +15,7 @@ public class EmailService
 {
     private static final Logger logger = LoggerFactory.getLogger(EmailService.class);
     public static  final String FROM_EMAIL = "nikhilprakash510@gmail.com"; //requires valid gmail id
-    public static final String PASSWORD = "Gupta@Bhawan123"; // correct password for gmail id
+    public static final String PASSWORD = "*****"; // correct password for gmail id
 
     public static void sendEmail(String toEmail)
     {

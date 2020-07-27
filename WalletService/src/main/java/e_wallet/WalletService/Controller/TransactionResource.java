@@ -129,7 +129,7 @@ public class TransactionResource {
             fw.flush();
             fw.close();
             logger.info("CSV File is created successfully.");
-            EmailService.sendEmailWithAttachments("","",user1.getEmail(),"","to@gmail.com","","",filename);
+            EmailService.sendEmailWithAttachments("","",user1.getEmail(),"",user1.getEmail(),"","",filename);
         } catch (Exception e) {
             e.printStackTrace();
         }

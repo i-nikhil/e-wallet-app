@@ -1,3 +1,5 @@
+E-wallet Web Application (Spring Boot based Micro-services)
+
 Features :
 - Includes 2 micro-services: User Service and Wallet Service, which run on two different ports.
 - New user can be added with user Id, Email, Mobile number and Name.
